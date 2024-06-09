@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@400..800&display=swap');
+
+@layer tailwind-base {
+  @tailwind base;
+}
+
+@layer tailwind-utilities {
+  @tailwind components;
+  @tailwind utilities;
+}
+
+
+
+p,h1,h2,h3,h4,h5,h6,span {
+  user-select: none;
+
+}
+
+
+
+/* requestPage */
+
+
+@layer base {
+  html {
+    font-family: "Baloo Bhaijaan 2", system-ui, sans-serif;
+    background-color: '#f8fafc';
+    scroll-behavior: smooth;
+  }
+}
+
+
+
+.swiper-pagination-bullet-active {
+  background-color: #3B82F6 !important;
+  width: 15% !important;
+  border-radius: 5px !important;
+  -webkit-border-radius: 5px !important;
+  -moz-border-radius: 5px !important;
+  -ms-border-radius: 5px !important;
+  -o-border-radius: 5px !important;
+}
+
+.swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal {
+  position: relative;
+  margin-top: 5% !important;
+}
+
+@media (max-width:767px) {
+
+  .swiper-button-next,
+  .swiper-button-prev {
+
+    padding: 0px 20px;
+  }
+
+
+}
+
+
+
+::-webkit-scrollbar {
+  width: 2px;
+
+}
+
+::-webkit-scrollbar-track {
+  background-color: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #475569;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+/* style SliderBrand */
+.marquee .swiper-wrapper {
+  transition-timing-function: linear !important;
+}
+
+
+
+.marquee .container {
+  position: relative;
+}
+
+.marquee .container::before,
+.marquee .container::after {
+  content: "";
+  height: 100%;
+  position: absolute;
+  top: 0;
+  width: var(--gradient-width, 50px);
+  /* Adjust width as needed */
+  z-index: 2;
+  pointer-events: none;
+}
+
+.marquee .container::before {
+  background: linear-gradient(to right, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0));
+  left: 0;
+}
+
+.marquee .container::after {
+  background: linear-gradient(to left, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0));
+  right: 0;
+}
+
+

@@ -1,0 +1,105 @@
+{
+  "cars": [
+    {
+      "id": "1",
+      "carName": "هايلاندر",
+      "price": "39,270",
+      "model": "2025",
+      "carState": "سليم",
+      "imageUrl": "https://tmna.aemassets.toyota.com/is/image/toyota/toyota/homepage/vehicleselector/HLD_MY23_0003_V001_desktop.png?fmt=jpeg&fit=crop&qlt=90&wid=500"
+    },
+    {
+      "id": "2",
+      "carName": "bZ4X",
+      "price": "43,070",
+      "model": "2025",
+      "carState": "سليم",
+      "imageUrl": "https://tmna.aemassets.toyota.com/is/image/toyota/toyota/electrified/vehicle-tiles/BZ4_MY24_0014_V001_mobile_BPK_Bhui7fEvsDgHCmm.png?fmt=jpeg&fit=crop&qlt=90&wid=500"
+    },
+    {
+      "id": "3",
+      "carName": "لاند كروزر ",
+      "price": "39,270",
+      "model": "2025",
+      "carState": "مصدوم",
+      "imageUrl": "https://tmna.aemassets.toyota.com/is/image/toyota/toyota/homepage/vehicleselector/2024/LND_MY24_0024_V002_mobile.png?fmt=jpeg&fit=crop&qlt=90&wid=500"
+    },
+    {
+      "id": "4",
+      "carName": "RAV4",
+      "price": "28675",
+      "brand": "Toyota",
+      "model": "2025",
+      "imageUrl": "https://tmna.aemassets.toyota.com/is/image/toyota/toyota/homepage/vehicleselector/2024/RAV_MY22_0046_V001_hseT5HkLeQ_RV3zvnKTcD.png?fmt=jpeg&fit=crop&qlt=90&wid=500",
+      "carState": "سليم"
+    },
+    {
+      "id": 0.24401771925246707,
+      "carName": "يارشس",
+      "price": "29786",
+      "brand": "تويوتا",
+      "model": "2023",
+      "imageUrl": "https://tmna.aemassets.toyota.com/is/image/toyota/toyota/homepage/vehicleselector/2024/RAV_MY22_0046_V001_hseT5HkLeQ_RV3zvnKTcD.png?fmt=jpeg&fit=crop&qlt=90&wid=500",
+      "carState": "سليم"
+    }
+  ],
+  "slider": [
+    {
+      "id": "1",
+      "imageUrl": "https://tmna.aemassets.toyota.com/is/image/toyota/toyota/protected/homepage/2025/uvp/corollafx/COR_MY25_0003_V001.png?fmt=jpeg&fit=crop&wid=1920"
+    },
+    {
+      "id": "2",
+      "imageUrl": "https://tmna.aemassets.toyota.com/is/image/toyota/toyota/homepage/marquee/930B_MY25_0002_V001.png?fmt=jpeg&fit=crop&wid=1439"
+    }
+  ],
+  "brands": [
+    {
+      "id": "1",
+      "imageUrl": "https://www.logo.wine/a/logo/Ford_of_Britain/Ford_of_Britain-Logo.wine.svg"
+    },
+    {
+      "id": "2",
+      "imageUrl": "https://www.logo.wine/a/logo/Audi/Audi-Logo.wine.svg"
+    },
+    {
+      "id": "3",
+      "imageUrl": "https://www.logo.wine/a/logo/Mercedes-Benz/Mercedes-Benz-Logo.wine.svg"
+    },
+    {
+      "id": "4",
+      "imageUrl": "https://www.logo.wine/a/logo/Toyota_Canada_Inc./Toyota_Canada_Inc.-Logo.wine.svg"
+    },
+    {
+      "id": "5",
+      "imageUrl": "https://www.logo.wine/a/logo/Lexus/Lexus-Logo.wine.svg"
+    },
+    {
+      "id": "6",
+      "imageUrl": "https://www.logo.wine/a/logo/Kia_Motors/Kia_Motors-Logo.wine.svg"
+    }
+  ],
+  "sliderCard": [
+    {
+      "id": "1",
+      "title": "هايلاندر",
+      "descreption": "اذهب إلى أبعد من المألوف.",
+      "price": "39,270",
+      "imageUrl": "https://tmna.aemassets.toyota.com/is/image/toyota/toyota/homepage/vehicleselector/HLD_MY23_0003_V001_desktop.png?fmt=jpeg&fit=crop&qlt=90&wid=500"
+    },
+    {
+      "id": "2",
+      "title": "bZ4X",
+      "descreption": "كهربة ، من الداخل والخارج.      ",
+      "price": "43,070",
+      "imageUrl": "https://tmna.aemassets.toyota.com/is/image/toyota/toyota/electrified/vehicle-tiles/BZ4_MY24_0014_V001_mobile_BPK_Bhui7fEvsDgHCmm.png?fmt=jpeg&fit=crop&qlt=90&wid=500"
+    },
+    {
+      "id": "3",
+      "title": "لاند كروزر      ",
+      "descreption": "نفس الأسطورة. فصل جديد",
+      "price": "39,270",
+      "imageUrl": "https://tmna.aemassets.toyota.com/is/image/toyota/toyota/homepage/vehicleselector/2024/LND_MY24_0024_V002_mobile.png?fmt=jpeg&fit=crop&qlt=90&wid=500"
+    }
+  ]
+}
